@@ -10,7 +10,7 @@ from source.personio_source_dummy import PersonioSourceDummy as D
 #https://test-1.personio.de/configuration/api/credentials/management
 
 # To test, replace P with D (dummy source with sample data)
-p = D(client_id='',
+p = P(client_id='',
       client_secret='')
 
 # let's create bigquery credentials
